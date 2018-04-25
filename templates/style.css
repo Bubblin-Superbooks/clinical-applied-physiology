@@ -145,6 +145,7 @@ ul {
     list-style-image: none;
     font-size: 90%;
     color: #555;
+    padding: 0;
 }
 
 ol {
