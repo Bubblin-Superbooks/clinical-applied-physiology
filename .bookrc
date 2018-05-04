@@ -6,13 +6,7 @@
     "JS": "js",
     "HEAD": "html"
   },
-  "type": [
-    {
-      "HTML": "html",
-      "CSS": "css",
-      "JS": "js",
-      "HEAD": "html"
-    }
-  ],
+  "type": "text",
+  "has_page_numbers": true,
   "book_id": 520
 }
