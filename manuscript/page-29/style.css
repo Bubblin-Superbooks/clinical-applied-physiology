@@ -1,8 +1,19 @@
-body {
-    height: 100vh;
-    height: 100%;
-    width: 100vw;
-    background-image: url(https://raw.githubusercontent.com/marvindanig/clinical-applied-physiology/master/assets/images/figure-4.jpg);
-    background-size: 200% 100%;
-    background-position: right center;
+/* Style the table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 80%;
+}
+
+/* Style table headers and table data */
+th, td {
+  text-align: left;
+  padding: 10px;
+}
+
+/* Zebra-striped table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2
 }

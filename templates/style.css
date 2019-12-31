@@ -46,15 +46,15 @@ h6 {
 }
 
 h1 {
-  font-size: 8vw;
+  font-size: 6vw; 
 }
 
 h2 {
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
 h3 {
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
 h4 {
@@ -306,6 +306,11 @@ p.stretch-para {
 .pad-vertically {
   padding: calc(4vw * 1) 0;
 }
+
+.pad-horizontally {
+  padding: 0 calc(4vw * 1);
+}
+
 
 .center {
   text-align: center;

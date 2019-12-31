@@ -6,7 +6,10 @@
     "JS": "js",
     "HEAD": "html"
   },
+  "status": "draft",
   "type": "text",
   "has_page_numbers": true,
-  "book_id": 520
+  "asset_url": "https://raw.githubusercontent.com/marvindanig/clinical-applied-physiology/master/assets/",
+  "book_id": 520,
+  "book_url": "https://bubblin.io/book/clinical-applied-physiology-by-dr-varun-malhotra"
 }
