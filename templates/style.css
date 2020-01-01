@@ -40,7 +40,7 @@ h5,
 h6 {
   font-family: 'Berkshire Swash', cursive;
   margin: 0 0;
-  padding: 0;
+  padding: 0 0;
   color: #000;
   font-weight: 100;
 }
@@ -153,10 +153,12 @@ code {
 }
 
 ol {
+  /* background: corrnsilk; */
   margin: calc((4vw * 1.50)/2) 5vw;
   padding: 0;
   list-style-type: none;
   counter-reset: step-counter calc(var(--start) - 1);
+  text-align: left;
 }
 
 ol li {
@@ -186,7 +188,12 @@ ul {
   margin: 0 0 0 5vw;
   padding: 0;
   list-style: none;
+  list-style-position: outside;
+  list-style-image: none;
+  padding: 0;
 }
+
+
 
 ul li {
   margin: 0;
@@ -262,7 +269,7 @@ hr::before {
   max-height: calc(17 * (4vw * 1.5) + 4vw);
   break-after: right;
   display:inline-block;
-  /* background: aliceblue; */  /* enable to see the maximum staging area */
+  /*background: aliceblue;*/   /* enable to see the maximum staging area */
 }
 
 .flex {
@@ -324,14 +331,5 @@ p.stretch-para {
 
 .right {
     float: right;
-}
-
-ul {
-    list-style-type: none;
-    list-style-position: outside;
-    list-style-image: none;
-    font-size: 90%;
-    color: #555;
-    padding: 0;
 }
 
