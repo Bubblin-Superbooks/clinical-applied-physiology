@@ -46,15 +46,15 @@ h6 {
 }
 
 h1 {
-  font-size: 6vw; 
+  font-size: 7vw; 
 }
 
 h2 {
-  font-size: 5vw;
+  font-size: 6vw;
 }
 
 h3 {
-  font-size: 4vw;
+  font-size: 5vw;
 }
 
 h4 {
@@ -153,7 +153,7 @@ code {
 }
 
 ol {
-  /* background: corrnsilk; */
+  /* background: cornsilk; */
   margin: calc((4vw * 1.50)/2) 5vw;
   padding: 0;
   list-style-type: none;
@@ -165,7 +165,7 @@ ol li {
   counter-increment: step-counter;
 }
 
-ol li::before {
+ol > li::before {
   content: counter(step-counter) ". ";
   margin-right: 1vw;
   color: black;
@@ -192,8 +192,6 @@ ul {
   list-style-image: none;
   padding: 0;
 }
-
-
 
 ul li {
   margin: 0;
@@ -269,7 +267,7 @@ hr::before {
   max-height: calc(17 * (4vw * 1.5) + 4vw);
   break-after: right;
   display:inline-block;
-  /*background: aliceblue;*/   /* enable to see the maximum staging area */
+  /* background: aliceblue; */  /* enable to see the maximum staging area */
 }
 
 .flex {
