@@ -6,7 +6,7 @@
     "JS": "js",
     "HEAD": "html"
   },
-  "status": "draft",
+  "status": "published",
   "type": "text",
   "has_page_numbers": true,
   "asset_url": "https://raw.githubusercontent.com/marvindanig/clinical-applied-physiology/master/assets/",
