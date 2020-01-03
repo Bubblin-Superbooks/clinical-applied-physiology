@@ -10,7 +10,7 @@ table {
 /* Style table headers and table data */
 th, td {
   text-align: left;
-  padding: 10px;
+  padding: 1vw;
 }
 
 /* Zebra-striped table rows */
