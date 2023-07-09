@@ -7,9 +7,12 @@
     "HEAD": "html"
   },
   "status": "published",
+  "category": "nonfiction",
+  "language": "EN",
+  "publisher": "Bubblin Superbooks, Washington DC",
   "type": "text",
   "has_page_numbers": true,
   "asset_url": "https://raw.githubusercontent.com/marvindanig/clinical-applied-physiology/master/assets/",
   "book_id": 520,
-  "book_url": "https://bubblin.io/book/clinical-applied-physiology-by-dr-varun-malhotra"
+  "book_url": "https://127.0.0.1:3000/book/clinical-applied-physiology-by-dr-varun-malhotra"
 }

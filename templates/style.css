@@ -146,12 +146,12 @@ p.no-indent {
   /* Continue line printing on a new page with a break on the previous page, but no indent. */
 }
 
-p.squeeze-para {
+p.squeeze-para, ol li.squeeze-para {
   letter-spacing: calc(-10 / 100 * var(--vmin));
   /* Handle orphans and widows manually */
 }
 
-p.stretch-para {
+p.stretch-para, ol li.stretch-para {
   letter-spacing: calc(1 / 100 * var(--vmin));
   /* Handle orphans and widows manually */
 }
