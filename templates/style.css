@@ -147,7 +147,7 @@ p.no-indent {
 }
 
 p.squeeze-para {
-  letter-spacing: calc(-1 / 100 * var(--vmin));
+  letter-spacing: calc(-10 / 100 * var(--vmin));
   /* Handle orphans and widows manually */
 }
 
