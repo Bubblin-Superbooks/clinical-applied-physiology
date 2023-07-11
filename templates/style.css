@@ -74,10 +74,10 @@ body {
 p {
   font-size: unset;
   font-size: calc(4 * var(--vmin));
-  text-indent: calc(8 * var(--vmin));
+  /* text-indent: calc(8 * var(--vmin)); */
   letter-spacing: calc(-1 / 100 * var(--vmin));
   word-spacing: calc(4 * var(--vmin)/var(--vmax)) !important;
-  margin: 0 0 0 0;
+  margin: calc(4 * var(--vmin)) 0 0 calc(5 * var(--vmin));
 }
 
 p.stretch-last-line {
@@ -146,7 +146,7 @@ p.no-indent {
   /* Continue line printing on a new page with a break on the previous page, but no indent. */
 }
 
-p.squeeze-para, ol li.squeeze-para {
+p.squeeze, ol li.squeeze {
   letter-spacing: calc(-15 / 100 * var(--vmin));
   /* Handle orphans and widows manually */
 }
@@ -181,7 +181,7 @@ h1 {
 h2 {
   width: 100%;
   text-align: center;
-  line-height: 2; /* Twice a --vmax */
+  line-height: 1.5; /* Twice a --vmax */
   font-size: calc(6 * var(--vmin));
 }
 
