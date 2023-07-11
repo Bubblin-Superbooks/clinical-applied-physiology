@@ -147,12 +147,12 @@ p.no-indent {
 }
 
 p.squeeze, ol li.squeeze {
-  letter-spacing: calc(-15 / 100 * var(--vmin));
+  letter-spacing: calc(-10 / 100 * var(--vmin));
   /* Handle orphans and widows manually */
 }
 
-p.stretch-para, ol li.stretch-para {
-  letter-spacing: calc(1 / 100 * var(--vmin));
+p.stretch, ol li.stretch {
+  letter-spacing: calc(10 / 100 * var(--vmin));
   /* Handle orphans and widows manually */
 }
 
