@@ -74,10 +74,10 @@ body {
 p {
   font-size: unset;
   font-size: calc(4 * var(--vmin));
-  /* text-indent: calc(8 * var(--vmin)); */
+  text-indent: calc(8 * var(--vmin));
   letter-spacing: calc(-1 / 100 * var(--vmin));
   word-spacing: calc(4 * var(--vmin)/var(--vmax)) !important;
-  margin: calc(4 * var(--vmin)) 0 0 calc(5 * var(--vmin));
+  /* margin: calc(4 * var(--vmin)) 0 0 calc(5 * var(--vmin)); */
 }
 
 p.stretch-last-line {
