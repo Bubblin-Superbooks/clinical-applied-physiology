@@ -100,7 +100,7 @@ _::-webkit-full-page-media, _:future, p.stretch-last-line {
 
 /* Safari support @7.1+ */
 _::-webkit-full-page-media, _:future, :root .small {
-  font-size: 80%;
+  font-size: 90%;
 }
 
 /* Firefox support Legacy and FF22+ */
@@ -253,7 +253,11 @@ img {
 }
 
 .small {
-  font-size: 80%;
+  font-size: 90%;
+}
+
+.italic {
+  font-style: italic;
 }
 
 blockquote {
@@ -333,7 +337,7 @@ ul {
 ul li {
   margin: 0;
   padding: 0;
-  list-style: circle;
+  list-style-type: '- ' /* '\002B\00a0\00a0'; */
 }
 
 ul li.split-li {

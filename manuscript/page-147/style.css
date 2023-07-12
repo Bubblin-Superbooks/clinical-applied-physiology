@@ -1,0 +1,19 @@
+/* Style the table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 80%;
+}
+
+/* Style table headers and table data */
+th, td {
+  text-align: left;
+  padding: 1vw;
+}
+
+/* Zebra-striped table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
